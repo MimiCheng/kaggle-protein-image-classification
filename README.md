@@ -9,7 +9,7 @@
 
 During training I used many manual steps. For example, I stop the training when the model started to overfit and reduce the learning rate to train more.
 
-I used checkpoint the save the best weight and use it as a initialize weight for the next training.
+I used checkpoint the save the best weight and use it as an initialize weight for the next training.
 
 
 ## Files
@@ -38,7 +38,7 @@ Below are the solution that I used for the final submission.
     OneCyclic vs CosineAnnealingWarmRestarts:  
         - CosineAnnealingWarmRestarts converges faster but the better f1 scores (>0.82) are from using Onecyclic with initial learning rate 0.0001 and 26 #epochs.
         - I used CosineAnnealingWarmRestarts for finding the best model, then I used OneCyclic for generating a single submission result before ensemble.
-   This [article](https://towardsdatascience.com/adaptive-and-cyclical-learning-rates-using-pytorch-2bf904d18dee) why choosing the right number of epochs and learning rate matters for OneCyclic.
+   This [article](https://towardsdatascience.com/adaptive-and-cyclical-learning-rates-using-pytorch-2bf904d18dee) explains why choosing the right number of epochs and learning rate matters for OneCyclic.
 
 ### Image augmentation:
     - I use below augmentation during training time and turn it off during validation and test time.
