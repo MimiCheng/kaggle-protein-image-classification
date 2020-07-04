@@ -58,5 +58,5 @@ Below are the solution that I used for the final submission.
     - I Use argmax() for predicting the rest of the missing classes.
     - At first I filled the missing classes with mode class (class 4) and then I changed to fill it with the argmax probabilities that the model generated.
 
-### My best single checkpoint:
+### Find my best single checkpoint here:
 `best_checkpoint/weight.pth`
