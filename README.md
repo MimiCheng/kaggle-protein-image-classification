@@ -1,4 +1,6 @@
-# The 1<sup>st</sup> place solution of [Zero to GANs - Human Protein Classification](https://www.kaggle.com/c/jovian-pytorch-z2g)
+# [Zero to GANs - Human Protein Classification](https://www.kaggle.com/c/jovian-pytorch-z2g)
+
+## 1<sup>st</sup> place solution
 
 <img src="protein_image.png" width="400" height="400">
 
