@@ -7,9 +7,13 @@
 
 ## Note
 
-During training I used many manual steps. For example, I stop the training when the model started to overfit and reduce the learning rate to train more.
+During training I used many manual steps. 
 
-I used checkpoint the save the best weight and use it as an initialize weight for the next training.
+- I stopped the training when the model started to overfit and reduce the learning rate to train more.
+
+- I used checkpoint the save the best weight and use it as an initialize weight for the next training.
+
+- I hand-picked different training and validation set without using cross-validation for training the model.
 
 
 ## Files
