@@ -1,4 +1,4 @@
-# [Zero to GANs - Human Protein Classification](https://www.kaggle.com/c/jovian-pytorch-z2g)
+# [Zero to GANs - Human Protein Classification with Pytorch](https://www.kaggle.com/c/jovian-pytorch-z2g)
 
 ## 1<sup>st</sup> place solution
 
