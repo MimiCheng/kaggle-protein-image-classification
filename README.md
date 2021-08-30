@@ -53,8 +53,7 @@ Below are the solution that I used for the final submission.
     - Resize() (used only when searching for hyperparameters, I get higher scores without using Resize())
     
 ### Loss: Binary cross-entropy
-    - binary cross-entropy vs focal loss: 
-        when focal loss decreases, f1 score doesn't increase much. I get better f1-scores from using binary cross-entropy.
+    - Choose a loss function that align with the F1-score metric, which are binary cross-entropy or focal loss. When focal loss decreases, f1 score doesn't increase much. I get better f1-scores from using binary cross-entropy.
     
 ### Ensemble
     - I ensemble the 6 best checkpoints of my model.
