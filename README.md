@@ -34,9 +34,9 @@ Below are the solution that I used for the final submission.
 
 ### Model: EfficientNet-B1 and EfficientNet-B2
 
-- EfficientNet-b0 vs EfficientNet-b1 vs EfficientNet-b2 vs EfficientNet-b4 vs ResetNet101 vs DenseNet121
+<img src="./images/efficient-net.png">
 
-    Results show that EfficientNets perform better than resnets and densenet.
+- EfficientNet-b0 vs EfficientNet-b1 vs EfficientNet-b2 vs EfficientNet-b4 vs ResetNet101 vs DenseNet121. Result shows that EfficientNets perform better than Resnets and Densenets.
     
 - EfficientNet-B1 vs EfficientNet-B2: I used both of them for ensemble.
 
