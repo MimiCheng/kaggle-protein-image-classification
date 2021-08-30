@@ -2,7 +2,7 @@
 
 <img src="./images/protein_image.png" width="100" height="100">
 
-Developing models to classify mixed patterns of proteins in microscope images
+Developed models to classify mixed patterns of proteins in microscope images
 
 ## 1<sup>st</sup> place solution
 
