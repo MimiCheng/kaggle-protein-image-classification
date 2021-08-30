@@ -1,8 +1,12 @@
 # [Zero to GANs - Human Protein Classification with Pytorch](https://www.kaggle.com/c/jovian-pytorch-z2g)
 
+Developing models to classify mixed patterns of proteins in microscope images
+
 ## 1<sup>st</sup> place solution
 
-<img src="protein_image.png" width="400" height="400">
+<img src="./images/kaggle2.png">
+
+<img src="./images/protein_image.png" width="400" height="400">
 
 
 ## Note
@@ -33,6 +37,9 @@ Below are the solution that I used for the final submission.
     - I didn't use EfficientNet-B4 because the score drops when I resized the image.
     
 ### Optimizer: AdamW, amsgrad=True, weight_decay=0.01
+
+<img src="./images/adamw.png">
+
     AdamW vs Adam:         
         AdamW optimizer converges faster than Adam. 
    See more details in [Why AdamW matters](https://towardsdatascience.com/why-adamw-matters-736223f31b5d) and [AdamW and Super-convergence is now the fastest way to train neural nets](https://www.fast.ai/2018/07/02/adam-weight-decay/)
